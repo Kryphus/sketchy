@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons, #reset-grid-button {
+    margin: 1rem;
+}
+
+.buttons button,#reset-grid-button {
+    padding: 4px 10px
+}
+
+.grid-container {
+   border: 2px solid rgb(184, 174, 174);
+   height: 700px;
+   width: 700px;
+   display: grid;
+
+}
+
+ 
+
