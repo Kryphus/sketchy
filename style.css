@@ -19,21 +19,30 @@ body {
     align-items: center;
 }
 
-.buttons, #reset-grid-button {
-    margin: 1rem;
+
+
+.buttons,
+#reset-grid-button {
+    margin: 1.5rem;
 }
 
-.buttons button,#reset-grid-button {
-    padding: 4px 10px
+.buttons button,
+#reset-grid-button {
+    padding: 4px 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.buttons button,
+#reset-grid-button:hover {
+    box-shadow: -7px 8px 33px -11px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: -7px 8px 33px -11px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: -7px 8px 33px -11px rgba(0, 0, 0, 0.6);
 }
 
 .grid-container {
-   border: 2px solid rgb(184, 174, 174);
-   height: 700px;
-   width: 700px;
-   display: grid;
-
+    border: 2px solid rgb(184, 174, 174);
+    height: 700px;
+    width: 700px;
+    display: grid;
 }
-
- 
-
